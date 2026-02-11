@@ -15,7 +15,7 @@
 
 /* Navbar */
 .navbar {
-    /* background-color: #1A0B2E; */
+    background-color: #1A0B2E;
 
 
 }
@@ -30,21 +30,42 @@ body {
     gap: 2rem;
 }
 
+.gradiant {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.k {
+    background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .links li a {
     text-decoration: none;
+    color: #FFFFFF;
+    line-height: 120%;
+    font-weight: 500;
 }
 
 .hamburger {
     display: none;
 }
 
-.btn {
+.btn-1 {
     padding: 12px;
     border: none;
+    color: #FFFFFF;
+    font-weight: 600;
     border-radius: 1000px;
+    background-image: linear-gradient(to top right, #f7e83f, #fb09b2b7, #9100F8);
+    margin-top: 24px;
+    margin-bottom: 24px;
+
 }
 
 .nav-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
