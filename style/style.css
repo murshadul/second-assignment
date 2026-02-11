@@ -69,3 +69,78 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+/* banner  */
+
+.banner {
+    background: url(../assets/hero-bg.png), url(../assets/hero-circle.png), url(../assets/microphone.png);
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 622px;
+
+    /* align-items: center; */
+}
+
+.img-container {
+    margin-top: 101px;
+}
+
+.banner-heading {
+    font-size: 3.95rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.banner-title {
+    color: #ffffffc7;
+    margin-bottom: 24px;
+
+}
+
+.btn-2 {
+    padding: 12.5px 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+    border-radius: 10000px;
+    background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+}
+
+.btn-3 {
+    border-radius: 10000px;
+    border: 1px solid #00FF88;
+    padding: 12px;
+    color: #00FF88;
+    padding-left: 48px;
+    background-color: ;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .btn-1 {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+
+}
