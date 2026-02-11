@@ -1,0 +1,50 @@
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* Navbar */
+.navbar {
+    /* background-color: #1A0B2E; */
+
+
+}
+
+body {
+    max-width: 1600px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.links li a {
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.btn {
+    padding: 12px;
+    border: none;
+    border-radius: 1000px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
