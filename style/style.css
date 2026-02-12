@@ -493,11 +493,12 @@ body {
     }
 
     .banner-heading {
-        padding-left: 70px;
+        padding-left: 130px;
+        font-size: 20px;
     }
 
     .banner-title {
-        padding-left: 50px;
+        padding-left: 10px;
     }
 
     /* About-section */
