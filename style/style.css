@@ -1,8 +1,7 @@
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+
 }
 
 * {
@@ -98,7 +97,7 @@ body {
 
 .banner-title {
     color: #ffffffc7;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 
 }
 
@@ -117,7 +116,68 @@ body {
     padding: 12px;
     color: #00FF88;
     padding-left: 48px;
-    background-color: ;
+    background-color: #1A0B2E;
+}
+
+.btn-container {
+    margin: 24px 0px 101px 0px;
+}
+
+/* About section */
+.about {
+    background-color: #1A0B2E;
+    box-sizing: border-box;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 200px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.about-title p {
+    line-height: 20px;
+    color: #FFFFFF;
+
+    margin-bottom: 16px;
+}
+
+.about-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-info {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-heading {
+    font-size: 3rem;
+    color: #00FF88;
+    font-weight: bold;
+}
+
+.card-info p {
+    line-height: 20px;
+    color: #ffffffaf;
+}
+
+.about-title hr {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #ffffff56;
 }
 
 
@@ -141,6 +201,58 @@ body {
         display: block;
     }
 
+    /* banner */
 
+    .banner-container {
+        /* width: 100%; */
+        margin-left: auto;
+    }
 
+    .banner .banner-container img {
+        max-width: 100%;
+    }
+
+    .banner {
+        background-image: 100%;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner-heading {
+        padding-left: 70px;
+    }
+
+    .banner-title {
+        padding-left: 50px;
+    }
+
+    /* About-section */
+    .about-card {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .card-info {
+        margin-bottom: 40px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-title {
+        padding-left: 20px;
+    }
+
+    .about-title hr {
+        margin-right: 20px;
+    }
 }
